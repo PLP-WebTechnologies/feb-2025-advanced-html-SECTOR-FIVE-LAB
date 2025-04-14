@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Advanced HTML Example">
+    <title>Fruits Shop</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Sector Five Lab Fruits SHop</h1>
+    </header>
+
+    <!-- Ordered List Section -->
+    <section>
+        <h2>Fruits</h2>
+        <ol type="I">
+            <li>Oranges</li>
+            <li>Pineapple</li>
+            <li>Banana</li>
+        </ol>
+    </section>
+
+    <!-- External Image Section -->
+    <section>
+        <h2>External Image</h2>
+        <img src="https://images.pexels.com/photos/1234567/pexels-photo-1234567.jpeg" alt="my favourite restaurant" width="600">
+    </section>
+
+    <!-- Contacts Table Section -->
+    <section>
+        <h2>Contacts Table</h2>
+        <table border="1" cellpadding="10" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lonah Williams</td>
+                    <td>Kisumu</td>
+                    <td>+254789234312</td>
+                    <td>Williamswew@yahoo.com</td>
+                </tr>
+                <tr>
+                    <td>Jane wambakayi</td>
+                    <td>kericho</td>
+                    <td>+25479034231</td>
+                    <td>jane.w@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>James Mwangi</td>
+                    <td>Kirunyaga</td>
+                    <td>+25478943322</td>
+                    <td>jmwangi@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Emily Wafula</td>
+                    <td>Bungoma</td>
+                    <td>+254712244534</td>
+                    <td>csimiyu@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Nathan Simiyu</td>
+                    <td>Utawala Nairobi </td>
+                    <td>+254792472406</td>
+                    <td>snathan062@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form Section -->
+    <section>
+        <h2>Registration Form</h2>
+        <form>
+            <!-- Name Field -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <br><br>
+
+            <!-- Email Field -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+
+            <!-- Password Field -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <br><br>
+
+            <!-- Date Field -->
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+
+            <!-- Dropdown Field -->
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select your country</option>
+                <option value="burundi">burundi</option>
+                <option value="kenya">kenya</option>
+                <option value="uganda">uganda</option>
+            </select>
+            <br><br>
+
+            <!-- Radio Button -->
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+            <br><br>
+
+            <!-- Checkbox -->
+            <label>Interests:</label>
+            <input type="checkbox" id="coding" name="interests" value="coding">
+            <label for="coding">Coding</label>
+            <input type="checkbox" id="music" name="interests" value="music">
+            <label for="music">Music</label>
+            <input type="checkbox" id="sports" name="interests" value="sports">
+            <label for="sports">Sports</label>
+            <br><br>
+
+            <!-- Submit Button -->
+            <button type="submit">Register</button>
+        </form>
+    </section>
+</body>
+</html>
